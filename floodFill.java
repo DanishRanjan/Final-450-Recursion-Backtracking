@@ -31,8 +31,17 @@ public class floodFill {
 		paths(maze, row, col - 1, ans + "l", visited);
 		paths(maze, row + 1, col, ans + "d", visited);
 		paths(maze, row, col + 1, ans + "r", visited);
-		visited[row][col] = false;
-		
+		visited[row][col] = false;	
 	}
-
 }
+
+//8
+//8
+//0 1 0 0 0 0 0 0
+//0 1 0 1 1 1 1 0
+//0 1 0 1 0 0 0 0
+//0 1 0 1 0 1 1 1
+//0 0 0 0 0 0 0 0
+//0 1 0 1 1 1 1 0
+//0 1 0 1 1 1 1 0
+//0 1 0 0 0 0 0 0
